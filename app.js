@@ -15,7 +15,13 @@ const display7 = document.getElementById("display-7");
 const submitButton = document.getElementById("submit-button");
 
 submitButton.addEventListener('click', () => {
-    display1.textContent = input1.value 
+    display1.textContent = input1.value;
+    display2.textContent = input2.value;
+    display3.textContent = input3.value;
+    display4.textContent = input4.value;
+    display5.textContent = input5.value;
+    display6.textContent = input6.value;
+    display7.textContent = input7.value;
 })
 
 console.log(input1, display1)
