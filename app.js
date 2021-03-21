@@ -22,6 +22,8 @@ submitButton.addEventListener('click', () => {
     display5.textContent = input5.value;
     display6.textContent = input6.value;
     display7.textContent = input7.value;
+    const story = document.getElementById("story")
+    story.classList.remove('hidden')
 })
 
 console.log(input1, display1)

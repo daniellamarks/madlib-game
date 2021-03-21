@@ -30,3 +30,7 @@ strong {
 input {
     display: block;
 }
+
+.hidden {
+    display: none;
+}
